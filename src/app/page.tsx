@@ -72,23 +72,23 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/young-boys-playing-with-toys_23-2148572949.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/young-boys-playing-with-toys_23-2148572949.jpg?_wi=1",
           imageAlt: "Montessori classroom setting",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-curious-girl-observing-leaf_23-2149018946.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-curious-girl-observing-leaf_23-2149018946.jpg?_wi=1",
           imageAlt: "Curious child exploring materials",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/tables-chairs-restaurant-filtered-image-processed-vinta_1232-2708.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/tables-chairs-restaurant-filtered-image-processed-vinta_1232-2708.jpg?_wi=1",
           imageAlt: "Warm classroom scene",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/serious-schoolboy-white-t-shirt-writes-down-records-notepad-busy-with-studying_273609-44842.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/serious-schoolboy-white-t-shirt-writes-down-records-notepad-busy-with-studying_273609-44842.jpg?_wi=1",
           imageAlt: "Child with wooden manipulatives",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-mother-daughter-kitchen_23-2148070422.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/happy-mother-daughter-kitchen_23-2148070422.jpg?_wi=1",
           imageAlt: "Teacher guiding a child",
         },
         {
@@ -210,7 +210,7 @@ export default function LandingPage() {
           quote: "My daughter has flourished since starting here. The teachers are incredible.",
           tag: "Parent",
           avatarSrc: "http://img.b2bpic.net/free-photo/closeup-smiling-mother-son-beach-sunlight_181624-8765.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-boys-playing-with-toys_23-2148572949.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/young-boys-playing-with-toys_23-2148572949.jpg?_wi=2",
           imageAlt: "happy parent portrait with child",
         },
         {
@@ -221,7 +221,7 @@ export default function LandingPage() {
           quote: "The Montessori approach is clear in every detail. Highly recommended.",
           tag: "Parent",
           avatarSrc: "http://img.b2bpic.net/free-photo/happy-smiling-father-his-daughter-home_624325-3627.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-curious-girl-observing-leaf_23-2149018946.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-curious-girl-observing-leaf_23-2149018946.jpg?_wi=2",
           imageAlt: "happy parent portrait with child",
         },
         {
@@ -232,7 +232,7 @@ export default function LandingPage() {
           quote: "We felt welcomed immediately. The curriculum is truly unique.",
           tag: "Parent",
           avatarSrc: "http://img.b2bpic.net/free-photo/smiling-woman-with-her-two-children_23-2147637086.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/tables-chairs-restaurant-filtered-image-processed-vinta_1232-2708.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/tables-chairs-restaurant-filtered-image-processed-vinta_1232-2708.jpg?_wi=2",
           imageAlt: "happy parent portrait with child",
         },
         {
@@ -243,7 +243,7 @@ export default function LandingPage() {
           quote: "Safe, clean, and inspiring environment for our toddler.",
           tag: "Parent",
           avatarSrc: "http://img.b2bpic.net/free-photo/portrait-mother-daughter_1170-2674.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/serious-schoolboy-white-t-shirt-writes-down-records-notepad-busy-with-studying_273609-44842.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/serious-schoolboy-white-t-shirt-writes-down-records-notepad-busy-with-studying_273609-44842.jpg?_wi=2",
           imageAlt: "happy parent portrait with child",
         },
         {
@@ -254,7 +254,7 @@ export default function LandingPage() {
           quote: "Everything we wanted for our son's early development.",
           tag: "Parent",
           avatarSrc: "http://img.b2bpic.net/free-photo/father-with-his-son-having-picnic-park_1303-16242.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-mother-daughter-kitchen_23-2148070422.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/happy-mother-daughter-kitchen_23-2148070422.jpg?_wi=2",
           imageAlt: "happy parent portrait with child",
         },
       ]}
