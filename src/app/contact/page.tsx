@@ -18,6 +18,7 @@ export default function ContactPage() {
                       { name: "Contact", id: "/contact" },
                   ]}
                   brandName="Little Inspirers"
+                  button={{ text: "Get Started", href: "#" }}
               />
             </div>
             <div id="contact" data-section="contact" className="pt-32 pb-20">
