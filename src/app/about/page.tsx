@@ -3,31 +3,24 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
-import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 
 export default function AboutPage() {
   return (
-    <ThemeProvider>
+    <ThemeProvider defaultButtonVariant="text-stagger" defaultTextAnimation="entrance-slide" borderRadius="rounded" contentWidth="medium" sizing="medium" background="circleGradient" cardStyle="glass-elevated" primaryButtonStyle="gradient" secondaryButtonStyle="glass" headingFontWeight="normal">
         <ReactLenis root>
-            <NavbarStyleFullscreen
-                navItems={[
-                    { name: "Home", id: "/" },
-                    { name: "About", id: "/about" },
-                    { name: "Contact", id: "/contact" },
-                ]}
-                brandName="Little Inspirers"
-            />
-            <MetricSplitMediaAbout
-                title="Our Story & Mission"
-                description="We are dedicated to providing a nurturing Montessori environment that respects each child's pace and innate curiosity. Founded on the principles of Maria Montessori, our goal is to foster a lifelong love for learning."
-                metrics={[
-                    { value: "18mo - 6y", title: "Age Range" },
-                    { value: "Certified", title: "Staff Qualifications" },
-                    { value: "Community", title: "Focused Environment" }
-                ]}
-                useInvertedBackground={false}
-            />
+            <div id="nav" data-section="nav">
+              <NavbarStyleFullscreen
+                  navItems={[
+                      { name: "Home", id: "/" },
+                      { name: "About", id: "/about" },
+                      { name: "Programs", id: "/programs" },
+                      { name: "Admissions", id: "/admissions" },
+                      { name: "Contact", id: "/contact" },
+                  ]}
+                  brandName="Little Inspirers"
+              />
+            </div>
             <FooterLogoReveal
                 logoText="Little Inspirers Montessori"
                 leftLink={{ text: "Privacy Policy", href: "#" }}
