@@ -3,40 +3,28 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
-import TimelineProcessFlow from '@/components/cardStack/layouts/timelines/TimelineProcessFlow';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 
 export default function AdmissionsPage() {
   return (
-    <ThemeProvider>
+    <ThemeProvider defaultButtonVariant="text-stagger" defaultTextAnimation="entrance-slide" borderRadius="rounded" contentWidth="medium" sizing="medium" background="circleGradient" cardStyle="glass-elevated" primaryButtonStyle="gradient" secondaryButtonStyle="glass" headingFontWeight="normal">
       <ReactLenis root>
-        <NavbarStyleFullscreen
-          navItems={[
-            { name: "Home", id: "/" },
-            { name: "Programs", id: "/programs" },
-            { name: "Admissions", id: "/admissions" },
-            { name: "Contact", id: "/#contact" },
-          ]}
-          brandName="Little Inspirers"
-        />
-        <div className="pt-32 pb-20">
-          <TimelineProcessFlow
-            title="Enrollment Process"
-            description="Steps to join our Little Inspirers family."
-            textboxLayout="split"
-            animationType="slide-up"
-            items={[
-              { content: "Schedule a Tour", media: "1", reverse: false },
-              { content: "Submit Application", media: "2", reverse: true },
-              { content: "Parent Interview", media: "3", reverse: false },
-              { content: "Enrollment Confirmation", media: "4", reverse: true },
+        <div id="nav" data-section="nav">
+          <NavbarStyleFullscreen
+            navItems={[
+              { name: "Home", id: "/" },
+              { name: "About", id: "/about" },
+              { name: "Programs", id: "/programs" },
+              { name: "Admissions", id: "/admissions" },
+              { name: "Contact", id: "/contact" },
             ]}
+            brandName="Little Inspirers"
           />
         </div>
         <FooterLogoReveal
           logoText="Little Inspirers Montessori"
           leftLink={{ text: "Privacy Policy", href: "#" }}
-          rightLink={{ text: "Contact", href: "/#contact" }}
+          rightLink={{ text: "Contact", href: "/contact" }}
         />
       </ReactLenis>
     </ThemeProvider>
